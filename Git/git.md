@@ -81,3 +81,30 @@ git merge # branch-name
 ```bash
 git branch -d # branch-name
 ```
+# VERSION CONTROL
+
+### Revert Back One Step
+> Navigate to the branch.
+```bash
+git checkout
+```
+
+# REMOTE SET UP
+### SSH Key Generating
+```bash
+ssh-keygen -t ed25519 -C "your-email@example.com"
+```
+### Agent Set Up
+```bash
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+```
+# PUSH
+### Remote Branch Set
+```bash
+git remote add origin # https://github-repo-ssh-link.com
+```
+### Pushing Local Repo To GitHub
+```bash
+git push -u origin main
+```

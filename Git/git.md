@@ -81,7 +81,7 @@ git merge # branch-name
 ```bash
 git branch -d # branch-name
 ```
-# VERSION CONTROL
+## VERSION CONTROL
 
 ### Revert Back One Step
 > Navigate to the branch.
@@ -89,7 +89,7 @@ git branch -d # branch-name
 git checkout
 ```
 
-# REMOTE SET UP
+## REMOTE SET UP
 ### SSH Key Generating
 ```bash
 ssh-keygen -t ed25519 -C "your-email@example.com"
@@ -99,7 +99,7 @@ ssh-keygen -t ed25519 -C "your-email@example.com"
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
 ```
-# PUSH
+## PUSH
 ### Remote Branch Set
 ```bash
 git remote add origin # https://github-repo-ssh-link.com

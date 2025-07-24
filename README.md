@@ -2,29 +2,29 @@
 
 <!-- GIT LINKS -->
 
-## [GIT](https://github.com/HasanujjamanGazi/git_-_markdown/blob/Git/Git/git.md)
+## [GIT](https://github.com/HasanujjamanGazi/git_-_markdown/blob/main/Git/git.md)
 
-#### 1. [CONFIGURATION](https://github.com/HasanujjamanGazi/git_-_markdown/blob/Git/Git/git.md#configuration)
+#### 1. [CONFIGURATION](https://github.com/HasanujjamanGazi/git_-_markdown/blob/main/Git/git.md#configuration)
 
-#### 2. [INITIALIZATION](https://github.com/HasanujjamanGazi/git_-_markdown/blob/Git/Git/git.md#initialization)
+#### 2. [INITIALIZATION](https://github.com/HasanujjamanGazi/git_-_markdown/blob/main/Git/git.md#initialization)
 
-#### 3. [STATUS](https://github.com/HasanujjamanGazi/git_-_markdown/blob/Git/Git/git.md#status)
+#### 3. [STATUS](https://github.com/HasanujjamanGazi/git_-_markdown/blob/main/Git/git.md#status)
 
-#### 4. [STAGING](https://github.com/HasanujjamanGazi/git_-_markdown/blob/Git/Git/git.md#staging)
+#### 4. [STAGING](https://github.com/HasanujjamanGazi/git_-_markdown/blob/main/Git/git.md#staging)
 
-#### 5. [COMMIT](https://github.com/HasanujjamanGazi/git_-_markdown/blob/Git/Git/git.md#commit)
+#### 5. [COMMIT](https://github.com/HasanujjamanGazi/git_-_markdown/blob/main/Git/git.md#commit)
 
-#### 6. [BRANCH](https://github.com/HasanujjamanGazi/git_-_markdown/blob/Git/Git/git.md#branch)
+#### 6. [BRANCH](https://github.com/HasanujjamanGazi/git_-_markdown/blob/main/Git/git.md#branch)
 
-##### - [MERGE BRANCH](https://github.com/HasanujjamanGazi/git_-_markdown/blob/Git/Git/git.md#merge-branch)
+##### - [MERGE BRANCH](https://github.com/HasanujjamanGazi/git_-_markdown/blob/main/Git/git.md#merge-branch)
 
-##### - [DELETE BRANCH](https://github.com/HasanujjamanGazi/git_-_markdown/blob/Git/Git/git.md#delete-branch)
+##### - [DELETE BRANCH](https://github.com/HasanujjamanGazi/git_-_markdown/blob/main/Git/git.md#delete-branch)
 
-#### 7. [VERSION CONTROL](https://github.com/HasanujjamanGazi/git_-_markdown/blob/Git/Git/git.md#version-control)
+#### 7. [VERSION CONTROL](https://github.com/HasanujjamanGazi/git_-_markdown/blob/main/Git/git.md#version-control)
 
-#### 8. [REMOTE SET UP](https://github.com/HasanujjamanGazi/git_-_markdown/blob/Git/Git/git.md#remote-set-up)
+#### 8. [REMOTE SET UP](https://github.com/HasanujjamanGazi/git_-_markdown/blob/main/Git/git.md#remote-set-up)
 
-#### 8. [PUSH](https://github.com/HasanujjamanGazi/git_-_markdown/blob/Git/Git/git.md#push)
+#### 8. [PUSH](https://github.com/HasanujjamanGazi/git_-_markdown/blob/main/Git/git.md#push)
 
 <!-- MARKDOWN LINKS -->
 

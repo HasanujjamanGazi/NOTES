@@ -55,3 +55,60 @@ let name = "Hasanujjaman Gazi";
 name.toUpperCase();     // returns the uppercase version of the string.
 name.toLowerCase();     // returns the lowercase version of the string.
 ```
+#### SLICE
+
+```javascript
+// Extracts substring from startIndex to end or endIndex if given.
+let name = "panna";
+name.slice(startIndex, endIndex);
+```
+
+#### REPLACE
+
+```javascript
+// Replace the first occurrence of a substring & return a new string.
+let name = "Gazi Hasanujjaman Gazi";
+name.replace("Gazi", "Pagi");   // Pazi Hasanujjaman Gazi
+```
+
+#### REPLACE ALL
+
+```javascript
+// Replace the all occurrence of a substring & return a new string.
+let name = "Gazi Hasanujjaman Gazi";
+name.replaceAll("Gazi", "Pagi");    // Pazi Hasanujjaman Pazi
+```
+
+#### TRIM
+
+```javascript
+// Removes white spaces from starting & ending.
+let name = "    Hasanujjaman Gazi    ";
+name.trim();    // "Hasanujjaman Gazi"
+```
+
+#### STARTSWITH & ENDSWITH
+
+```javascript
+// Checks if the strings starts / ends with the substring or not.
+let name = "Hasanujjaman Gazi";
+name.startsWith("Has");    // true
+name.endsWith("Gaza");    // false
+```
+
+#### INCLUDES
+
+```javascript
+// checks if the substring is in the string or not.
+let name = "Hasanujjaman Gazi";
+name.includes("Gazi");    // true
+```
+
+#### INDEXOF & LASTINDEXOF
+```javascript
+// Returns the index of the first occurrence of param.
+let name = "Banana";
+name.indexOf("na");    // 2
+// Returns the index of the last occurrence of param.
+name.lastIndexOf("na");    // 4
+```

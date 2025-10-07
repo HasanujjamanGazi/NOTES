@@ -33,8 +33,20 @@ const greet = function () {
 
 ### ARROW FUNCTION
 
+> In a regular arrow function, `{ }` creates a function block - so you must use `return` to give back a value.
+
+> In a shorthand arrow function, `{ }` are not used - **JS automatically returns the expression after the arrow**.
+
 ```javascript
+// Long arrow function
 const greet = (params) => {
     // DO SOMETHING;
+    // RETURN SOMETHING; (OPTIONAL)
 };
+```
+
+```javascript
+// Shorthand arrow function
+const greet = (a, b) => a + b
+// Here a + b will br returned automatically.
 ```

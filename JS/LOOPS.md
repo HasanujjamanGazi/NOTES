@@ -20,6 +20,12 @@ for (const key in object) {
 }
 ```
 
+```javascript
+for (const key in arr) {
+  console.log(key);    // It will still return the keys not the elements.
+}
+```
+
 ### FOR OF
 
 > This is used to iterate over **values** of iterable.
@@ -36,9 +42,13 @@ for (const value of array) {
 
 > This is a array method used to iterate through arrays.
 
+> Takes value, index, array as input & we can access them in loop
+
 ```javascript
-let lst = ['h', 'e', 'l', 'l', 'o'];
-############# PENDING #############
+let lst = [4, 5, 6, 7];
+lst.forEach((value, index, arr) => {
+  console.log(`${value ** 2} :: ${index} :: ${arr}`);
+});
 ```
 
 ### WHILE

@@ -1,4 +1,4 @@
-# NOTES
+# NOTES - CONTENTS
 
 <!-- GIT LINKS -->
 
@@ -49,3 +49,22 @@
 8. ### [LINKS](https://github.com/HasanujjamanGazi/git_-_markdown/blob/main/Markdown/markdown.md#links)
 
 9. ### [IMAGES](https://github.com/HasanujjamanGazi/git_-_markdown/blob/main/Markdown/markdown.md#images)
+
+<!-- JAVASCRIPT LINKS -->
+
+## [JAVASCRIPT](https://github.com/HasanujjamanGazi/NOTES/tree/main/JS)
+
+1. ### [STRING](https://github.com/HasanujjamanGazi/NOTES/blob/main/JS/STRING.md)
+    1. #### [STRING](https://github.com/HasanujjamanGazi/NOTES/blob/main/JS/STRING.md#string)
+    2. #### [STRING LITERAL](https://github.com/HasanujjamanGazi/NOTES/blob/main/JS/STRING.md#string-literal)
+    3. #### [STRING PROPERTY](https://github.com/HasanujjamanGazi/NOTES/blob/main/JS/STRING.md#string-property)
+        1. ##### [LENGTH](https://github.com/HasanujjamanGazi/NOTES/blob/main/JS/STRING.md#length)
+    4. #### [STRING METHODS](https://github.com/HasanujjamanGazi/NOTES/blob/main/JS/STRING.md#string-methods)
+        1. ##### [UPPERCASE & LOWERCASE](https://github.com/HasanujjamanGazi/NOTES/blob/main/JS/STRING.md#uppercase--lowercase)
+        2. ##### [SLICE](https://github.com/HasanujjamanGazi/NOTES/blob/main/JS/STRING.md#slice)
+        3. ##### [REPLACE](https://github.com/HasanujjamanGazi/NOTES/blob/main/JS/STRING.md#replace)
+        4. ##### [REPLACE ALL](https://github.com/HasanujjamanGazi/NOTES/blob/main/JS/STRING.md#replace-all)
+        5. ##### [TRIM](https://github.com/HasanujjamanGazi/NOTES/blob/main/JS/STRING.md#trim)
+        6. ##### [STARTSWITH & ENDSWITH](https://github.com/HasanujjamanGazi/NOTES/blob/main/JS/STRING.md#startswith--endswith)
+        7. ##### [INCLUDES](https://github.com/HasanujjamanGazi/NOTES/blob/main/JS/STRING.md#includes)
+        8. ##### [INDEXOF & LASTINDEXOF](https://github.com/HasanujjamanGazi/NOTES/blob/main/JS/STRING.md#indexof--lastindexof)

@@ -1,4 +1,4 @@
-# JS
+# JS - LOOPS
 
 ## LOOPS
 

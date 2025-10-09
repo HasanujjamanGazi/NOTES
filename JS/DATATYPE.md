@@ -1,5 +1,13 @@
 # JS - PRIMITIVES & NON PRIMITIVES
 
+### TYPE OF (OPERATOR)
+
+> Returns the data type of the value.
+
+```javascript
+typeof "Panna Gazi";    // str
+```
+
 ## PRIMITIVES #7
 
 ### NULL

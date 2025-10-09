@@ -1,70 +1,74 @@
 # JS
 
-## CONSOLE
+## JS LABEL
 
-### CONSOLE LOG
+> A label provides a `identifier` to a statement or a block of code.
 
 ```javascript
-console.log("LOG");
+// labelName: statement;
+// labelName: {
+//   // Block of code
+// }
 ```
 
-### CONSOLE INFO
+#### Use Case
 
 ```javascript
-console.info("INFO");
+// Find the match
+const arr1 = [1, 3, 5, 7];
+const arr2 = [5, 11, 9];
+
+// Use Case: OPTIMIZATION
+loop1: for (let i = 0; i < arr1.length; i++) {
+  loop2: for (let j = 0; j < arr2.length; j++) {
+    if (arr1[i] === arr2[j]) {
+      console.log("Matched: " + arr1[i]);
+      break loop1; // Stop at Goal.
+    } else {
+      console.log(`${arr1[i]} -- ${arr2[j]}`);
+    }
+  }
+}
 ```
 
-### CONSOLE WARN
+> **In the above code we breaks out the all the loops when the goal is met. But if it is not done the will run to the last using unnecessary computation power.**
+
+## TERNARY OPERATOR
+
+> Shorthand for the if-else statement.
 
 ```javascript
-console.warn("WARNING");
+// (condition) ? expression1 : expression2;
+let id = age >= 18 ? "Adult" : "Minor";
 ```
 
-### CONSOLE ERROR
+## SWITCH CASE
+
+> Switch takes one expression & matches it with all the cases and whenever a case is matched then it executes the rest of the code.
+
+> `break;` is a statement that break out a switch statement. If you not use break after one case matched it will execute all the code after that even if their case is not matched.
 
 ```javascript
-console.error("ERROR");
-```
-
-### CONSOLE ASSERT
-
-> Takes an expression & shows Error when expression is false.
-
-```javascript
-console.assert(2 > 3);
-console.assert(2 < 3);
-```
-
-### CONSOLE TABLE
-
-> Shows the data in the tabular format in the console.
-
-```javascript
-console.table(products);
-```
-
-### CONSOLE CLEAR
-
-> Clears the console.
-
-```javascript
-console.clear();
-```
-
-### CONSOLE TIME
-
-> It starts a timer. Can be used to measure taken time of an expression.
-
-```javascript
-console.time("keyword");
-// SOME CODE
-console.timeEnd("keyword");    // Same keyword
-```
-
-### CONSOLE DIR
-
-> `console.dir` shows the dom as objects.
-
-```javascript
-
+switch (new Date().getDay()) {
+  case 0:
+    day = "Sunday";
+    break;
+  case 1:
+    day = "Monday";
+    break;
+  case 2:
+    day = "Tuesday";
+    break;
+  case 3:
+    day = "Wednesday";
+    break;
+  case 4:
+    day = "Thursday";
+    break;
+  case 5:
+    day = "Friday";
+    break;
+  case 6:
+    day = "Saturday";
+}
 ```

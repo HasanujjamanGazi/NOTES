@@ -5,10 +5,10 @@
 > A label provides a `identifier` to a statement or a block of code.
 
 ```javascript
-// labelName: statement;
-// labelName: {
-//   // Block of code
-// }
+labelName: statement;
+labelName: {
+  // Block of code
+}
 ```
 
 #### Use Case

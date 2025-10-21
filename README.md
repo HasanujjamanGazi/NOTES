@@ -1,4 +1,5 @@
-# NOTES - CONTENTS
+<!-- # NOTES - CONTENTS -->
+<h1><center> NOTES - CONTENT </center></h1>
 
 <!-- JAVASCRIPT LINKS -->
 

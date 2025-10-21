@@ -40,7 +40,14 @@ const myBool2 = false;
 
 ### BIGINT
 
-> A number representing a large number.
+> There is a limit in storing number values in a variable i `bits` number larger can produce errors i code so they are set as `BigInt`.
+
+#### MAX_SAFE_INTEGER
+
+```javascript
+let maxInt = Number.MAX_SAFE_INTEGER    // 9007199254740991
+```
+> Number larger than `MAX_SAFE_INTEGER` should be stored as `BigInt` as it may cause code error.
 
 ```javascript
 const myBigInt1 = BigInt(1234567890123456789012345);
@@ -60,7 +67,14 @@ const str = "Hasanujjaman Gazi !";
 > A unique and primitive identifier.
 
 ```javascript
-const mySymbol = Symbol(98172394);
+const obj = {
+    'uid': 1234.
+    'firstName': "panna",
+    'lastName': "gazi"
+}
+// Want to add **uid** without changing the internal value. Used when external library's objects need some tweaks.
+// obj['uid'] = 6345   // will update
+obj[Symbol(uid)] = 6457    // add new value.
 ```
 
 ### UNDEFINED

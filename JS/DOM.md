@@ -219,6 +219,8 @@ let n = el.previousElementSibling;
 
 ### CREATION
 
+> It just creates the html does not show it on the site. To show you have to append it.
+
 ```javascript
 // CREATE ELEMENT NODE
 const div = document.createElement("div");
@@ -237,6 +239,9 @@ const comment = document.createComment("This is a dynamic comment");
 ```javascript
 // Append a `node` as last child
 parent.appendChild(child);
+
+// Prepend a `node` as first child
+parant.prepend(child);
 
 // Adds multiple child / text at the end
 parent.append(...nodesOrStrings);
@@ -297,8 +302,89 @@ const deepClone = box.cloneNode(false);
 // <div id="box"></div>
 ```
 
+### ATTRIBUTE MANIPULATION
 
+```javascript
+<div id="box">
+  <a href="https://www.google.com">Link</a>
+</div>
 
+let a = document.querySelector("a");
+// To set a attribute 
+// Pass `attribute` & its value
+a.setAttribute("href", "https://www.youtube.com/");
+
+// To get the value of a attribute pass the attribute name
+let b = a.getAttribute("href");
+
+// To remove the attribute pass the atribute name
+a.removeAttribute("href");
+```
+
+### STYLE MANIPULATION
+
+```javascript
+<h1>hello guys</h1>
+
+let h1 = document.querySelector("h1");
+// Change style
+h1.style.color = "gray";
+
+// Add Class
+h1.classList.add("my-class");
+// Remove Class
+h1.classList.remove("my-class");
+// Toggle class ==> removes when exists / adds when doesn't exists.
+h1.classList.toggle ("my-class");
+```
+
+## EVENT LISTENER
+
+### ADD
+
+> Pass the event name as a string & a callback that will run on the event.
+
+```javascript
+let item = document.querySelector("h1");
+item.addEventListener("Event Name", function () {
+  // Do Something.
+});
+
+// OR
+function eventFunction() {
+  // Do Something;
+}
+item.addEventListener("Event Name", eventFunction);   // Dont't call it here like eventFunction() ❌
+```
+
+### REMOVE
+
+> Pass the name of the event as string & pass the exact added callback function.
+
+```javascript
+let item = document.querySelector("h1");
+
+function eventFunction() {
+  // Do Something;
+};
+item.removeEventListener("Event Name", eventFunction);    // Dont't call it here like eventFunction() ❌
+```
+
+### COMMON EVENTS
+
+#### CLICK
+#### MOUSE ENTER
+#### INPUT
+#### INPUT
+
+#### IMP
+
+> We can select one element & click on it through JS.
+
+```javascript
+const item = document.querySelector("button");
+item.click();   // It will just click on it.
+```
 
 
 

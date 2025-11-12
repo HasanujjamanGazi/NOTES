@@ -3,81 +3,82 @@
 ## DOCUMENT
 
 1. ### DOCUMENT ELEMENT
-    ```javascript
-    // Returns whole HTML document
-    document.documentElement
-    // Returns the head of the HTML
-    document.head
-    // Returns the body of the HTML
-    document.body
-    // Returns the title of the page
-    document.title
-    ```
+
+   ```javascript
+   // Returns whole HTML document
+   document.documentElement;
+   // Returns the head of the HTML
+   document.head;
+   // Returns the body of the HTML
+   document.body;
+   // Returns the title of the page
+   document.title;
+   ```
 
 2. ### DOCUMENT INFO
-    ```javascript
-    // Returns full URL of the page
-    document.URL
-    // Returns the domain name of the page
-    document.domain
-    // Returns the baseURI of a relative URL
-    document.baseURI
-    ```
+   ```javascript
+   // Returns full URL of the page
+   document.URL;
+   // Returns the domain name of the page
+   document.domain;
+   // Returns the baseURI of a relative URL
+   document.baseURI;
+   ```
 3. ### DOCUMENT COLLECTIONS
-    ```javascript
-    // Collection of all scripts element
-    document.scripts
-    // Collection of all forms element
-    document.forms
-    // Collection of all images element
-    document.images
-    // Collection of all links element
-    document.links
-    ```
+   ```javascript
+   // Collection of all scripts element
+   document.scripts;
+   // Collection of all forms element
+   document.forms;
+   // Collection of all images element
+   document.images;
+   // Collection of all links element
+   document.links;
+   ```
 4. ### DOM READY EVENT
 
-    ```javascript
-    // Executes after the document is loaded
-    document.addEventListener("DOMContentLoaded", () => {
-      console.log("DOM is ready");
-    });
-    ```
+   ```javascript
+   // Executes after the document is loaded
+   document.addEventListener("DOMContentLoaded", () => {
+     console.log("DOM is ready");
+   });
+   ```
 
-    ```javascript
-    // Executes after teh entire page is loaded
-    window.addEventListener("load", () => {
-      console.log("Page fully loaded");
-    });
-    ```
+   ```javascript
+   // Executes after teh entire page is loaded
+   window.addEventListener("load", () => {
+     console.log("Page fully loaded");
+   });
+   ```
 
 5. ### SCRIPT LOADING
 
-    1. #### NORMAL
+   1. #### NORMAL
 
-        ```html
-        <!-- Browser stop parsing the HTML while loading script & loads after HTML loads usually. -->
-        <script src="script.js"></script>
-        ```
+      ```html
+      <!-- Browser stop parsing the HTML while loading script & loads after HTML loads usually. -->
+      <script src="script.js"></script>
+      ```
 
-    2. #### ASYNCHRONOUSLY LOADING
+   2. #### ASYNCHRONOUSLY LOADING
 
-        ```html
-        <!-- 1. async
-        Script downloaded parallel to HTML & executes as soon as downloaded.
-        Scripts that don't depends on DOM -->
-        <script src="script.js" async></script>
-        <!-- 1. defer
-        Script downloaded parallel to HTML & executes after the DOM is fully parsed.
-        Scripts that depends on DOM -->
-        <script src="script.js" defer></script>
-        ```
+      ```html
+      <!-- 1. async
+      Script downloaded parallel to HTML & executes as soon as downloaded.
+      Scripts that don't depends on DOM -->
+      <script src="script.js" async></script>
+      <!-- 1. defer
+      Script downloaded parallel to HTML & executes after the DOM is fully parsed.
+      Scripts that depends on DOM -->
+      <script src="script.js" defer></script>
+      ```
 
 ## DOM SELECTION
 
 ### ELEMENT SELECTOR
 
 ```javascript
-// By Id 
+// By Id
 const header = document.getElementById("main-header");
 
 // By Class
@@ -96,11 +97,12 @@ const firstCard = document.querySelector(".card");
 const firstCard = document.querySelectorAll(".card");
 ```
 
-
 Returns one element object with specific `ID` or `null`.
+
 ```javascript
 const header = document.getElementById("header");
 ```
+
 Returns a **Live** `HTMLCollection` with a particular class.
 
 Can select element with multiple classes.
@@ -114,6 +116,7 @@ Same as `getElementsByClassName` but it select by `tagName`.
 ```javascript
 const paragraphs = document.getElementsByTagName("p");
 ```
+
 Selects the first element matching the css selector.
 
 Returns a single element object.
@@ -144,7 +147,6 @@ const allCards = document.querySelectorAll(".card");
 
 > `childNodes` creates a live node list & `querySelectorAll()` creates a static node list.
 
-
 ## DOM TRAVERSAL
 
 ### PARENT
@@ -161,7 +163,9 @@ console.log(text.parentElement.tagName); // "P"
 // find nearest .card ancestor of a clicked element
 document.addEventListener("click", (e) => {
   const card = e.target.closest(".card");
-  if (card) { /* do something */ }
+  if (card) {
+    /* do something */
+  }
 });
 ```
 
@@ -176,7 +180,7 @@ console.log(parent.children[0]); // first child element
 
 // Node List of children
 const nodes = document.getElementById("para").childNodes;
-nodes.forEach(n => console.log(n.nodeType));
+nodes.forEach((n) => console.log(n.nodeType));
 
 // First Child Node
 const first = el.firstChild;
@@ -254,11 +258,11 @@ parent.insertBefore(newNode, referenceNode);
 // element.insertAdjacentHTML(position, htmlString);
 element.insertAdjacentHTML("beforeend", "<p>Inserted!</p>");
 const positions = {
-  'beforebegin': "Before the element itself",
-  'afterbegin': "Before the first child",
-  'beforeend': "After the last child",
-  'afterend': "After the element itself",
-}
+  beforebegin: "Before the element itself",
+  afterbegin: "Before the first child",
+  beforeend: "After the last child",
+  afterend: "After the element itself",
+};
 ```
 
 ### REMOVING
@@ -286,7 +290,7 @@ parent.replaceChild(newDiv, oldDiv);
 ```javascript
 <div id="box">
   <p>Hello</p>
-</div>
+</div>;
 
 // Creates a copy of a existing node
 // Takes parameter [true / false]
@@ -307,10 +311,10 @@ const deepClone = box.cloneNode(false);
 ```javascript
 <div id="box">
   <a href="https://www.google.com">Link</a>
-</div>
+</div>;
 
 let a = document.querySelector("a");
-// To set a attribute 
+// To set a attribute
 // Pass `attribute` & its value
 a.setAttribute("href", "https://www.youtube.com/");
 
@@ -324,7 +328,7 @@ a.removeAttribute("href");
 ### STYLE MANIPULATION
 
 ```javascript
-<h1>hello guys</h1>
+<h1>hello guys</h1>;
 
 let h1 = document.querySelector("h1");
 // Change style
@@ -335,7 +339,7 @@ h1.classList.add("my-class");
 // Remove Class
 h1.classList.remove("my-class");
 // Toggle class ==> removes when exists / adds when doesn't exists.
-h1.classList.toggle ("my-class");
+h1.classList.toggle("my-class");
 ```
 
 ## EVENT LISTENER
@@ -354,7 +358,7 @@ item.addEventListener("Event Name", function () {
 function eventFunction() {
   // Do Something;
 }
-item.addEventListener("Event Name", eventFunction);   // Dont't call it here like eventFunction() ❌
+item.addEventListener("Event Name", eventFunction); // Dont't call it here like eventFunction() ❌
 ```
 
 ### REMOVE
@@ -366,16 +370,94 @@ let item = document.querySelector("h1");
 
 function eventFunction() {
   // Do Something;
-};
-item.removeEventListener("Event Name", eventFunction);    // Dont't call it here like eventFunction() ❌
+}
+item.removeEventListener("Event Name", eventFunction); // Dont't call it here like eventFunction() ❌
 ```
 
 ### COMMON EVENTS
 
 #### CLICK
+
 #### MOUSE ENTER
+
 #### INPUT
+
 #### INPUT
+
+### CAPTURING PHASE
+
+> Event listeners runs in two phases. **capturing phase** & **bubbling phase**.
+
+> When a event occurs JS always checks all of its parents first from upper to lower if the capture phase is on or not (By default its always off). If its off then it will check its children till the target of the event & start bubbling phase. But if some element's event listener is set to capturing phase on then it will run first.
+
+```javascript
+// EXAMPLE - CAPTURING PHASE OFF
+<div class="a">
+  <div class="b">
+    <div class="c"></div>
+  </div>
+</div>
+```
+
+> If event occur in `C` then in capturing phase JS always checks in `A > B > C` order if capturing phase on or not. If not then it will enter bubbling phase. So the event listeners will run in `C > B > A` order.
+
+```javascript
+// EXAMPLE - CAPTURING PHASE ON
+<div class="a">
+  <div class="b">
+    <div class="c">
+      <div class="d"></div>
+    </div>
+  </div>
+</div>
+// Let's say the capturing phase is on for 'B'
+```
+> JS checks if capturing phase is true
+>
+> Phase 1(Capturing):</br>
+> For A => false => NO</br>
+> For B => true => RUN</br>
+> For C => false => NO</br>
+></br>
+> Phase 2(Target):</br>
+> For D => Just Run</br>
+></br>
+> Phase 3(Bubbling):</br>
+> For C => false => RUN</br>
+> For B => false => NO</br>
+> For A => false => RUN</br>
+
+#### HOW TO ON CAPTURING PHASE
+
+```javascript
+document.addEventListener("click", function () {
+  // Do Something;
+}, true);   // Give the option value TRUE.
+```
+
+### BUBBLING PHASE
+
+> When an event occurs in a children element & there is no event listener then it searches for event listener in the parent element till the `HTML` element.
+
+> Even if the element have event listener it will go to the parents run the event listeners.
+
+> If we want to set event listener for multiple children then we just add one event listener to the parent element an toggle something through the `target`.
+
+In the following example we wanted when ever someone click on the `li` then it become strickthrough. So instead of adding event listener to all the `li` we added one event listener to the `ul` so that through `Event Bubbling` all the `li` inherit it.
+
+```javascript
+// USE
+<ul>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>;
+
+const lst = document.querySelector("ul");
+lst.addEventListner("click", function (evt) {
+  evt.target.classList.toggle("line-though");
+});
+```
 
 #### IMP
 
@@ -383,7 +465,47 @@ item.removeEventListener("Event Name", eventFunction);    // Dont't call it here
 
 ```javascript
 const item = document.querySelector("button");
-item.click();   // It will just click on it.
+item.click(); // It will run a click event on it.
+```
+
+## FORM HANDLING
+
+> 1. Stop the form to reload on submit (prevent default).
+> 2. Add inline checks for form for valid data with `required`, `pattern` attribute (although it can be bypassed).
+> 3. Use regex in js to get a valid input.
+> 4. All this front-end code can be bypassed so we have to add validators at back-end as well as in the database.
+
+```javascript
+// HTML
+<form>
+  <input required pattern="[a-z_]{3,20}" type="text" name="username" />
+  <input required type="email" />
+  <input required type="password" />
+  <input type="submit" />
+</form>
+
+// JS
+const form = document.querySelector("form");
+const username = document.querySelector("input[name='username']");
+const email = document.querySelector("input[type='email']");
+const password = document.querySelector("input[type='password']");
+
+form.addEventListener("submit", function (evt) {
+  evt.preventDefault();
+  // Preventing form reload on submit.
+  
+  // REGEX code for valid inputs.
+  const usernameRegex = /^[a-zA-Z0-9_]{3,16}$/;
+  const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+  const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+
+  // Validate
+  console.log(
+    usernameRegex.test(username.value),
+    emailRegex.test(email.value),
+    passwordRegex.test(password.value),
+  );
+});
 ```
 
 
@@ -402,8 +524,7 @@ Additional objects provided by the host environment(browser).
 
 `alert`, `prompt`, `confirm` these are the part of BOM.
 
-
-## DOM 
+## DOM
 
 > "The Document Object Model is a platform- and language-independent interface that allows programs and scripts to dynamically access and update the content, structure, and style of documents."
 
@@ -417,22 +538,36 @@ Additional objects provided by the host environment(browser).
 // Parsing HTML → CSSOM & Style Calculation → Layout (Reflow) → Painting & Compositing → Dynamic Updates via JavaScript
 ```
 
-## DOM NODES 
+## DOM NODES
+
 There are 12 nodes in dom.
+
 ### ELEMENT NODE
+
 > HTML element.
+
 ### ATTRIBUTE NODE
+
 > Attribute of an HTML element.
+
 ### TEXT NODE
+
 > Text Content of an HTML element.
+
 ### COMMENT NODE
+
 > Comments in HTML file.
+
 ### DOCUMENT NODE
+
 > Entire HTML document.
+
 ### DOCUMENT TYPE NODE
+
 > <!DOCTYPE>
+
 ### DOCUMENT FRAGMENT NODE
+
 > Lightweight container of a group of Nodes.
 
 Rest of the nodes are for XML mainly/only
-

@@ -508,6 +508,74 @@ form.addEventListener("submit", function (evt) {
 });
 ```
 
+## TIMERS & INTERVALS
+
+> `setTimeOut` takes a callback function & time in milisecond. Then it executes the callback function after the specified time.
+
+```javascript
+const delay = setTimeout(() => {
+  // Do Something
+}, 5000);
+
+// clearTimeout(delay);
+// To clear the timer.
+```
+
+> `setInterval` takes a callback function & time in miliseconds. Then it keeps executing the callback function in that time interval.
+
+```javascript
+const interval = setInterval(() => {
+  // Do Something;
+}, 3000);
+
+// clearInterval(interval);
+// To clear the interval.
+```
+
+## STORAGE
+
+### LOCAL STORAGE
+
+> Its the storage of the browser. It stores data permanently. Data will still be there even you close the bowser then reopen it. It only deleted if you delete it.
+
+> We can only store string data so we have to convert everything to string with `JSON.stringify()` & to parse the data use `JSON.parse()`.
+
+```javascript
+// CREATE
+localStorage.setItem("name", "panna gazi");
+// READ
+const localNameValue = localStorage.getItem("name");
+console.log(localNameValue);
+// UPDATE
+localStorage.setItem("name", "hasanujjaman gazi");
+localStorage.setItem("age", "12");
+// REMOVE
+localStorage.removeItem("name");
+// CLEAR - clear all that stored
+localStorage.clear();
+```
+
+### SESSION STORAGE
+
+> It stores data temporarily in the browser till user close the tab. Close the tab & data is gone.
+
+```javascript
+// Same as localStorage.
+// Just remains till the tab is open.
+```
+
+### COOKIES
+
+> It is similar to local storage but Its for small data.
+
+> You can only store small amount of data.
+
+> All data stored in cookies all sent to server on reload.
+
+```javascript
+document.cookie = "email=name@example.com";
+```
+
 
 
 <h1><center>NOTES</h1></center>

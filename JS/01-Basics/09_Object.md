@@ -25,9 +25,9 @@ obj[firstname];
 obj.firstName;
 ```
 
-> `obj[variable]` takes a variable in & search for it's value in the object.
+> `obj[variable]` takes a variable in & search for it's value in the object. We can give exact value also.
 
-> `obj.firstName` is wa way to retrieve data of object.
+> `obj.firstName` is a way to retrieve data of object.
 
 ```javascript
 let obj = {
@@ -169,4 +169,17 @@ console.log(users);
 //   admin: true,
 //   address: { city: 'Basanti', pin: 743312 }
 // }
+```
+
+### COMPARING OBJECTS
+
+> Comparing two JS Objects always returns `FALSE`.
+
+### CREATING PRIMITIVES AS OBJECTS
+
+> Primitives can be declared as objects by the `new` keyword.
+
+```javascript
+let value1 = new String("Panna Gazi");      // object
+let value2 = new Boolean(true);     // object
 ```

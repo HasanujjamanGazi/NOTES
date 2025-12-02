@@ -1,5 +1,15 @@
 # JS - FUNCTIONS
 
+> We can get the length of functions with the `length` property.</br>
+> The length of functions is the number of parameters it has.
+
+```javascript
+function abcd(a, b) {
+    // Do
+}
+abcd.length    // 2
+```
+
 ### FUNCTIONS (LEGACY)
 
 ```javascript
@@ -102,7 +112,15 @@ counter(100);
 > A function that returns a functions & in the returned function a variable of parent function is used.
 
 ```javascript
+function abcd() {
+  let a = 12;
+  return function () {
+    console.log(a);
+  };
+}
 
+let print = abcd();
+print();
 ```
 
 ---

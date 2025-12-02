@@ -109,7 +109,7 @@ counter(100);
 
 ### CLOSURES
 
-> A function that returns a functions & in the returned function a variable of parent function is used.
+> A function that returns a functions & the returned function uses variable of parent function.
 
 ```javascript
 function abcd() {

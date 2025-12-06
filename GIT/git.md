@@ -7,6 +7,8 @@
 ```bash
 git config --global user.name "Hasanujjaman Gazi"
 git config --global user.email "hasanujjamangazi1234@gmail.com"
+git config --global core.editor "code --wait"
+# git config --global core.autocrlf ""
 ```
 
 #### 2. PROJECT

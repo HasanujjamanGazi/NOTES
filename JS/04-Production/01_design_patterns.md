@@ -104,3 +104,5 @@ kitkat.buy(5);    // 5 bought 7 left.
 // Now the Kitkat stock is 7.
 ```
 
+## OBSERVER PATTERN
+

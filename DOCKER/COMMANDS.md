@@ -1,5 +1,7 @@
 ## DOCKER
 
+#### BASICS OF DOCKER
+
 ```bash
 # To check docker installed & version.
 docker --version
@@ -12,6 +14,9 @@ docker pull
 
 # Creat & run a docker container from image.
 docker run
+
+# To stop a running container
+docker stop name/ID
 
 # List all running containers
 docker ps
@@ -30,5 +35,14 @@ docker rmi name/ID
 
 # To rename a docker container
 docker rename name new-name
+
+```
+
+#### DOCKER RUN
+
+```bash
+# Creat & run a docker container from image.
+docker run
+
 
 ```

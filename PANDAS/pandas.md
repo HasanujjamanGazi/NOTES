@@ -279,3 +279,23 @@ grouped = df.groupby("column_to_group_by")["perform_operation_column"].sum()
 grouped = df.groupby("age")["salary"].sum()
 ```
 
+#### MERGING & CONCATENATING
+
+> We can merge multiple DataFrames with specific to a particular column.
+
+```python
+df_merged = pd.merge(df_customer, df_orders, on="CustomerID", how="inner")
+# inner to get only the intersection.
+# outer to get all the values but the missing values filled with NaN.
+# right to get all the right values & non matched values to left dataset in filled with NaN.
+# left to get the opposite of right.
+```
+
+> We can concatenate DataFrames vertically/Horizontally.
+
+```python
+pd.concat(df1, df2, axis=0, ignore_index=True)
+# axis = 0 to concat DataFrames Vertically/Row wise.
+# axis = 1 to concat DataFrames Horizontally/Column wise.
+# ignore_index=True to reform the scrambled index after concatenating.
+```

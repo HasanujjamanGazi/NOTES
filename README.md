@@ -2,78 +2,78 @@
 
 Personal notes and learning resources.
 
-```
-NOTES/
-├── DB/
-│   ├── MONGO/
-│   │   └── MONGODB.md
-│   ├── MYSQL/
-│   │   └── .gitkeep
-│   ├── POSTGRESQL/
-│   │   └── .gitkeep
-│   └── SQL/
-│       └── 01_sql_base_select_DQL_.md
-├── DOCKER/
-│   └── COMMANDS.md
-├── GIT/
-│   └── git.md
-├── GSAP/
-│   ├── GSAP_PROJECTS/
-│   │   ├── gsap.css
-│   │   ├── gsap.html
-│   │   └── gsap.js
-│   ├── 01_gsap.md
-│   └── 02_scrolltrigger.md
-├── LANGUAGES/
-│   ├── JS/
-│   │   ├── 01-Basics/
-│   │   │   ├── 01_variables_&_declaration.md
-│   │   │   ├── 02_Data_Types_&_Type_System.md
-│   │   │   ├── 03_String.md
-│   │   │   ├── 04_Operators.md
-│   │   │   ├── 05_Control_Flow.md
-│   │   │   ├── 06_Loops.md
-│   │   │   ├── 07_Functions.md
-│   │   │   ├── 08_Array.md
-│   │   │   ├── 09_Object.md
-│   │   │   └── CONSOLE.md
-│   │   ├── 02-Intermediate/
-│   │   │   ├── 01_dom.md
-│   │   │   ├── 02_dom_selection.md
-│   │   │   ├── 03_dom_traversal.md
-│   │   │   ├── 04_dom_manipulation.md
-│   │   │   ├── 05_events.md
-│   │   │   ├── 06_forms.md
-│   │   │   ├── 07_timers_&_intervals.md
-│   │   │   └── 08_storage_&_cookies.md
-│   │   ├── 03-Advanced/
-│   │   │   ├── 01_execution_context_&_closures.md
-│   │   │   ├── 02_this.md
-│   │   │   ├── 03_oop.md
-│   │   │   ├── 04_callbacks_&_promises_&_async_await.md
-│   │   │   └── 05_fetch_API_&_basic_HTTPS.md
-│   │   ├── 04-Production/
-│   │   │   ├── 01_design_patterns.md
-│   │   │   └── 02_performance_optimization.md
-│   │   ├── PROJECTS/
-│   │   │   └── 01_Snake_game/
-│   │   │       ├── index.html
-│   │   │       ├── script.js
-│   │   │       └── style.css
-│   │   ├── what_the_js.md/
-│   │   │   └── .gitkeep
-│   │   └── my_note.md
-│   ├── MARKDOWN/
-│   │   └── markdown.md
-│   └── PYTHON/
-│       └── pandas.md
-├── LINUX/
-│   └── basic_linux.md
-├── REACT/
-│   ├── 01_basics.md
-│   ├── 02_components.md
-│   └── HOOKS.md
-├── .gitignore
-├── PLANNER.md
-└── README.md
-```
+<pre>
+<a href="https://github.com/HasanujjamanGazi/NOTES/tree/main">NOTES/</a>
+├── <a href="https://github.com/HasanujjamanGazi/NOTES/tree/main/DB">DB/</a>
+│   ├── <a href="https://github.com/HasanujjamanGazi/NOTES/tree/main/DB/MONGO">MONGO/</a>
+│   │   └── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/DB/MONGO/MONGODB.md">MONGODB.md</a>
+│   ├── <a href="https://github.com/HasanujjamanGazi/NOTES/tree/main/DB/MYSQL">MYSQL/</a>
+│   │   └── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/DB/MYSQL/.gitkeep">.gitkeep</a>
+│   ├── <a href="https://github.com/HasanujjamanGazi/NOTES/tree/main/DB/POSTGRESQL">POSTGRESQL/</a>
+│   │   └── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/DB/POSTGRESQL/.gitkeep">.gitkeep</a>
+│   └── <a href="https://github.com/HasanujjamanGazi/NOTES/tree/main/DB/SQL">SQL/</a>
+│       └── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/DB/SQL/01_sql_base_select_DQL_.md">01_sql_base_select_DQL_.md</a>
+├── <a href="https://github.com/HasanujjamanGazi/NOTES/tree/main/DOCKER">DOCKER/</a>
+│   └── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/DOCKER/COMMANDS.md">COMMANDS.md</a>
+├── <a href="https://github.com/HasanujjamanGazi/NOTES/tree/main/GIT">GIT/</a>
+│   └── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/GIT/git.md">git.md</a>
+├── <a href="https://github.com/HasanujjamanGazi/NOTES/tree/main/GSAP">GSAP/</a>
+│   ├── <a href="https://github.com/HasanujjamanGazi/NOTES/tree/main/GSAP/GSAP_PROJECTS">GSAP_PROJECTS/</a>
+│   │   ├── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/GSAP/GSAP_PROJECTS/gsap.css">gsap.css</a>
+│   │   ├── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/GSAP/GSAP_PROJECTS/gsap.html">gsap.html</a>
+│   │   └── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/GSAP/GSAP_PROJECTS/gsap.js">gsap.js</a>
+│   ├── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/GSAP/01_gsap.md">01_gsap.md</a>
+│   └── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/GSAP/02_scrolltrigger.md">02_scrolltrigger.md</a>
+├── <a href="https://github.com/HasanujjamanGazi/NOTES/tree/main/LANGUAGES">LANGUAGES/</a>
+│   ├── <a href="https://github.com/HasanujjamanGazi/NOTES/tree/main/LANGUAGES/JS">JS/</a>
+│   │   ├── <a href="https://github.com/HasanujjamanGazi/NOTES/tree/main/LANGUAGES/JS/01-Basics">01-Basics/</a>
+│   │   │   ├── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/01-Basics/01_variables_%26_declaration.md">01_variables_&amp;_declaration.md</a>
+│   │   │   ├── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/01-Basics/02_Data_Types_%26_Type_System.md">02_Data_Types_&amp;_Type_System.md</a>
+│   │   │   ├── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/01-Basics/03_String.md">03_String.md</a>
+│   │   │   ├── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/01-Basics/04_Operators.md">04_Operators.md</a>
+│   │   │   ├── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/01-Basics/05_Control_Flow.md">05_Control_Flow.md</a>
+│   │   │   ├── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/01-Basics/06_Loops.md">06_Loops.md</a>
+│   │   │   ├── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/01-Basics/07_Functions.md">07_Functions.md</a>
+│   │   │   ├── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/01-Basics/08_Array.md">08_Array.md</a>
+│   │   │   ├── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/01-Basics/09_Object.md">09_Object.md</a>
+│   │   │   └── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/01-Basics/CONSOLE.md">CONSOLE.md</a>
+│   │   ├── <a href="https://github.com/HasanujjamanGazi/NOTES/tree/main/LANGUAGES/JS/02-Intermediate">02-Intermediate/</a>
+│   │   │   ├── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/02-Intermediate/01_dom.md">01_dom.md</a>
+│   │   │   ├── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/02-Intermediate/02_dom_selection.md">02_dom_selection.md</a>
+│   │   │   ├── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/02-Intermediate/03_dom_traversal.md">03_dom_traversal.md</a>
+│   │   │   ├── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/02-Intermediate/04_dom_manipulation.md">04_dom_manipulation.md</a>
+│   │   │   ├── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/02-Intermediate/05_events.md">05_events.md</a>
+│   │   │   ├── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/02-Intermediate/06_forms.md">06_forms.md</a>
+│   │   │   ├── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/02-Intermediate/07_timers_%26_intervals.md">07_timers_&amp;_intervals.md</a>
+│   │   │   └── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/02-Intermediate/08_storage_%26_cookies.md">08_storage_&amp;_cookies.md</a>
+│   │   ├── <a href="https://github.com/HasanujjamanGazi/NOTES/tree/main/LANGUAGES/JS/03-Advanced">03-Advanced/</a>
+│   │   │   ├── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/03-Advanced/01_execution_context_%26_closures.md">01_execution_context_&amp;_closures.md</a>
+│   │   │   ├── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/03-Advanced/02_this.md">02_this.md</a>
+│   │   │   ├── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/03-Advanced/03_oop.md">03_oop.md</a>
+│   │   │   ├── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/03-Advanced/04_callbacks_%26_promises_%26_async_await.md">04_callbacks_&amp;_promises_&amp;_async_await.md</a>
+│   │   │   └── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/03-Advanced/05_fetch_API_%26_basic_HTTPS.md">05_fetch_API_&amp;_basic_HTTPS.md</a>
+│   │   ├── <a href="https://github.com/HasanujjamanGazi/NOTES/tree/main/LANGUAGES/JS/04-Production">04-Production/</a>
+│   │   │   ├── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/04-Production/01_design_patterns.md">01_design_patterns.md</a>
+│   │   │   └── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/04-Production/02_performance_optimization.md">02_performance_optimization.md</a>
+│   │   ├── <a href="https://github.com/HasanujjamanGazi/NOTES/tree/main/LANGUAGES/JS/PROJECTS">PROJECTS/</a>
+│   │   │   └── <a href="https://github.com/HasanujjamanGazi/NOTES/tree/main/LANGUAGES/JS/PROJECTS/01_Snake_game">01_Snake_game/</a>
+│   │   │       ├── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/PROJECTS/01_Snake_game/index.html">index.html</a>
+│   │   │       ├── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/PROJECTS/01_Snake_game/script.js">script.js</a>
+│   │   │       └── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/PROJECTS/01_Snake_game/style.css">style.css</a>
+│   │   ├── <a href="https://github.com/HasanujjamanGazi/NOTES/tree/main/LANGUAGES/JS/what_the_js.md">what_the_js.md/</a>
+│   │   │   └── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/what_the_js.md/.gitkeep">.gitkeep</a>
+│   │   └── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/my_note.md">my_note.md</a>
+│   ├── <a href="https://github.com/HasanujjamanGazi/NOTES/tree/main/LANGUAGES/MARKDOWN">MARKDOWN/</a>
+│   │   └── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/MARKDOWN/markdown.md">markdown.md</a>
+│   └── <a href="https://github.com/HasanujjamanGazi/NOTES/tree/main/LANGUAGES/PYTHON">PYTHON/</a>
+│       └── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/PYTHON/pandas.md">pandas.md</a>
+├── <a href="https://github.com/HasanujjamanGazi/NOTES/tree/main/LINUX">LINUX/</a>
+│   └── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/LINUX/basic_linux.md">basic_linux.md</a>
+├── <a href="https://github.com/HasanujjamanGazi/NOTES/tree/main/REACT">REACT/</a>
+│   ├── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/REACT/01_basics.md">01_basics.md</a>
+│   ├── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/REACT/02_components.md">02_components.md</a>
+│   └── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/REACT/HOOKS.md">HOOKS.md</a>
+├── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/.gitignore">.gitignore</a>
+├── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/PLANNER.md">PLANNER.md</a>
+└── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/README.md">README.md</a>
+</pre>

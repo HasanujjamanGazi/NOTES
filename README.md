@@ -1,77 +1,79 @@
 # NOTES
 
-Personal notes and learning resources. Click any name below to open it on GitHub (`main` branch).
+Personal notes and learning resources.
 
-[NOTES/](https://github.com/HasanujjamanGazi/NOTES/tree/main)
-├── [DB](https://github.com/HasanujjamanGazi/NOTES/tree/main/DB)
-│   ├── [MONGO](https://github.com/HasanujjamanGazi/NOTES/tree/main/DB/MONGO)
-│   │   └── [MONGODB.md](https://github.com/HasanujjamanGazi/NOTES/blob/main/DB/MONGO/MONGODB.md)
-│   ├── [MYSQL](https://github.com/HasanujjamanGazi/NOTES/tree/main/DB/MYSQL)
-│   │   └── [.gitkeep](https://github.com/HasanujjamanGazi/NOTES/blob/main/DB/MYSQL/.gitkeep)
-│   ├── [POSTGRESQL](https://github.com/HasanujjamanGazi/NOTES/tree/main/DB/POSTGRESQL)
-│   │   └── [.gitkeep](https://github.com/HasanujjamanGazi/NOTES/blob/main/DB/POSTGRESQL/.gitkeep)
-│   └── [SQL](https://github.com/HasanujjamanGazi/NOTES/tree/main/DB/SQL)
-│       └── [01_sql_base_select_DQL_.md](https://github.com/HasanujjamanGazi/NOTES/blob/main/DB/SQL/01_sql_base_select_DQL_.md)
-├── [DOCKER](https://github.com/HasanujjamanGazi/NOTES/tree/main/DOCKER)
-│   └── [COMMANDS.md](https://github.com/HasanujjamanGazi/NOTES/blob/main/DOCKER/COMMANDS.md)
-├── [GIT](https://github.com/HasanujjamanGazi/NOTES/tree/main/GIT)
-│   └── [git.md](https://github.com/HasanujjamanGazi/NOTES/blob/main/GIT/git.md)
-├── [GSAP](https://github.com/HasanujjamanGazi/NOTES/tree/main/GSAP)
-│   ├── [GSAP_PROJECTS](https://github.com/HasanujjamanGazi/NOTES/tree/main/GSAP/GSAP_PROJECTS)
-│   │   ├── [gsap.css](https://github.com/HasanujjamanGazi/NOTES/blob/main/GSAP/GSAP_PROJECTS/gsap.css)
-│   │   ├── [gsap.html](https://github.com/HasanujjamanGazi/NOTES/blob/main/GSAP/GSAP_PROJECTS/gsap.html)
-│   │   └── [gsap.js](https://github.com/HasanujjamanGazi/NOTES/blob/main/GSAP/GSAP_PROJECTS/gsap.js)
-│   ├── [01_gsap.md](https://github.com/HasanujjamanGazi/NOTES/blob/main/GSAP/01_gsap.md)
-│   └── [02_scrolltrigger.md](https://github.com/HasanujjamanGazi/NOTES/blob/main/GSAP/02_scrolltrigger.md)
-├── [LANGUAGES](https://github.com/HasanujjamanGazi/NOTES/tree/main/LANGUAGES)
-│   ├── [JS](https://github.com/HasanujjamanGazi/NOTES/tree/main/LANGUAGES/JS)
-│   │   ├── [01-Basics](https://github.com/HasanujjamanGazi/NOTES/tree/main/LANGUAGES/JS/01-Basics)
-│   │   │   ├── [01_variables_&_declaration.md](https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/01-Basics/01_variables_%26_declaration.md)
-│   │   │   ├── [02_Data_Types_&_Type_System.md](https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/01-Basics/02_Data_Types_%26_Type_System.md)
-│   │   │   ├── [03_String.md](https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/01-Basics/03_String.md)
-│   │   │   ├── [04_Operators.md](https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/01-Basics/04_Operators.md)
-│   │   │   ├── [05_Control_Flow.md](https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/01-Basics/05_Control_Flow.md)
-│   │   │   ├── [06_Loops.md](https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/01-Basics/06_Loops.md)
-│   │   │   ├── [07_Functions.md](https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/01-Basics/07_Functions.md)
-│   │   │   ├── [08_Array.md](https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/01-Basics/08_Array.md)
-│   │   │   ├── [09_Object.md](https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/01-Basics/09_Object.md)
-│   │   │   └── [CONSOLE.md](https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/01-Basics/CONSOLE.md)
-│   │   ├── [02-Intermediate](https://github.com/HasanujjamanGazi/NOTES/tree/main/LANGUAGES/JS/02-Intermediate)
-│   │   │   ├── [01_dom.md](https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/02-Intermediate/01_dom.md)
-│   │   │   ├── [02_dom_selection.md](https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/02-Intermediate/02_dom_selection.md)
-│   │   │   ├── [03_dom_traversal.md](https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/02-Intermediate/03_dom_traversal.md)
-│   │   │   ├── [04_dom_manipulation.md](https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/02-Intermediate/04_dom_manipulation.md)
-│   │   │   ├── [05_events.md](https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/02-Intermediate/05_events.md)
-│   │   │   ├── [06_forms.md](https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/02-Intermediate/06_forms.md)
-│   │   │   ├── [07_timers_&_intervals.md](https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/02-Intermediate/07_timers_%26_intervals.md)
-│   │   │   └── [08_storage_&_cookies.md](https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/02-Intermediate/08_storage_%26_cookies.md)
-│   │   ├── [03-Advanced](https://github.com/HasanujjamanGazi/NOTES/tree/main/LANGUAGES/JS/03-Advanced)
-│   │   │   ├── [01_execution_context_&_closures.md](https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/03-Advanced/01_execution_context_%26_closures.md)
-│   │   │   ├── [02_this.md](https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/03-Advanced/02_this.md)
-│   │   │   ├── [03_oop.md](https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/03-Advanced/03_oop.md)
-│   │   │   ├── [04_callbacks_&_promises_&_async_await.md](https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/03-Advanced/04_callbacks_%26_promises_%26_async_await.md)
-│   │   │   └── [05_fetch_API_&_basic_HTTPS.md](https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/03-Advanced/05_fetch_API_%26_basic_HTTPS.md)
-│   │   ├── [04-Production](https://github.com/HasanujjamanGazi/NOTES/tree/main/LANGUAGES/JS/04-Production)
-│   │   │   ├── [01_design_patterns.md](https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/04-Production/01_design_patterns.md)
-│   │   │   └── [02_performance_optimization.md](https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/04-Production/02_performance_optimization.md)
-│   │   ├── [PROJECTS](https://github.com/HasanujjamanGazi/NOTES/tree/main/LANGUAGES/JS/PROJECTS)
-│   │   │   └── [01_Snake_game](https://github.com/HasanujjamanGazi/NOTES/tree/main/LANGUAGES/JS/PROJECTS/01_Snake_game)
-│   │   │       ├── [index.html](https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/PROJECTS/01_Snake_game/index.html)
-│   │   │       ├── [script.js](https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/PROJECTS/01_Snake_game/script.js)
-│   │   │       └── [style.css](https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/PROJECTS/01_Snake_game/style.css)
-│   │   ├── [what_the_js.md](https://github.com/HasanujjamanGazi/NOTES/tree/main/LANGUAGES/JS/what_the_js.md)
-│   │   │   └── [.gitkeep](https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/what_the_js.md/.gitkeep)
-│   │   └── [my_note.md](https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/JS/my_note.md)
-│   ├── [MARKDOWN](https://github.com/HasanujjamanGazi/NOTES/tree/main/LANGUAGES/MARKDOWN)
-│   │   └── [markdown.md](https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/MARKDOWN/markdown.md)
-│   └── [PYTHON](https://github.com/HasanujjamanGazi/NOTES/tree/main/LANGUAGES/PYTHON)
-│       └── [pandas.md](https://github.com/HasanujjamanGazi/NOTES/blob/main/LANGUAGES/PYTHON/pandas.md)
-├── [LINUX](https://github.com/HasanujjamanGazi/NOTES/tree/main/LINUX)
-│   └── [basic_linux.md](https://github.com/HasanujjamanGazi/NOTES/blob/main/LINUX/basic_linux.md)
-├── [REACT](https://github.com/HasanujjamanGazi/NOTES/tree/main/REACT)
-│   ├── [01_basics.md](https://github.com/HasanujjamanGazi/NOTES/blob/main/REACT/01_basics.md)
-│   ├── [02_components.md](https://github.com/HasanujjamanGazi/NOTES/blob/main/REACT/02_components.md)
-│   └── [HOOKS.md](https://github.com/HasanujjamanGazi/NOTES/blob/main/REACT/HOOKS.md)
-├── [.gitignore](https://github.com/HasanujjamanGazi/NOTES/blob/main/.gitignore)
-├── [PLANNER.md](https://github.com/HasanujjamanGazi/NOTES/blob/main/PLANNER.md)
-└── [README.md](https://github.com/HasanujjamanGazi/NOTES/blob/main/README.md)
+```
+NOTES/
+├── DB/
+│   ├── MONGO/
+│   │   └── MONGODB.md
+│   ├── MYSQL/
+│   │   └── .gitkeep
+│   ├── POSTGRESQL/
+│   │   └── .gitkeep
+│   └── SQL/
+│       └── 01_sql_base_select_DQL_.md
+├── DOCKER/
+│   └── COMMANDS.md
+├── GIT/
+│   └── git.md
+├── GSAP/
+│   ├── GSAP_PROJECTS/
+│   │   ├── gsap.css
+│   │   ├── gsap.html
+│   │   └── gsap.js
+│   ├── 01_gsap.md
+│   └── 02_scrolltrigger.md
+├── LANGUAGES/
+│   ├── JS/
+│   │   ├── 01-Basics/
+│   │   │   ├── 01_variables_&_declaration.md
+│   │   │   ├── 02_Data_Types_&_Type_System.md
+│   │   │   ├── 03_String.md
+│   │   │   ├── 04_Operators.md
+│   │   │   ├── 05_Control_Flow.md
+│   │   │   ├── 06_Loops.md
+│   │   │   ├── 07_Functions.md
+│   │   │   ├── 08_Array.md
+│   │   │   ├── 09_Object.md
+│   │   │   └── CONSOLE.md
+│   │   ├── 02-Intermediate/
+│   │   │   ├── 01_dom.md
+│   │   │   ├── 02_dom_selection.md
+│   │   │   ├── 03_dom_traversal.md
+│   │   │   ├── 04_dom_manipulation.md
+│   │   │   ├── 05_events.md
+│   │   │   ├── 06_forms.md
+│   │   │   ├── 07_timers_&_intervals.md
+│   │   │   └── 08_storage_&_cookies.md
+│   │   ├── 03-Advanced/
+│   │   │   ├── 01_execution_context_&_closures.md
+│   │   │   ├── 02_this.md
+│   │   │   ├── 03_oop.md
+│   │   │   ├── 04_callbacks_&_promises_&_async_await.md
+│   │   │   └── 05_fetch_API_&_basic_HTTPS.md
+│   │   ├── 04-Production/
+│   │   │   ├── 01_design_patterns.md
+│   │   │   └── 02_performance_optimization.md
+│   │   ├── PROJECTS/
+│   │   │   └── 01_Snake_game/
+│   │   │       ├── index.html
+│   │   │       ├── script.js
+│   │   │       └── style.css
+│   │   ├── what_the_js.md/
+│   │   │   └── .gitkeep
+│   │   └── my_note.md
+│   ├── MARKDOWN/
+│   │   └── markdown.md
+│   └── PYTHON/
+│       └── pandas.md
+├── LINUX/
+│   └── basic_linux.md
+├── REACT/
+│   ├── 01_basics.md
+│   ├── 02_components.md
+│   └── HOOKS.md
+├── .gitignore
+├── PLANNER.md
+└── README.md
+```

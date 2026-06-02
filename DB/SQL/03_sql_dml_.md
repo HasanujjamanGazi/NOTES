@@ -1,0 +1,4 @@
+### DATA MODIFYING LANGUAGE (DML)
+
+#### INSERT
+

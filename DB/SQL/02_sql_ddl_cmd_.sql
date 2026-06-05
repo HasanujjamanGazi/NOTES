@@ -31,8 +31,16 @@ DROP COLUMN person_role
 -- Deleting column will cause loosing data
 
 ------------------------------------------
+-- TO DELETE ALL DATA OF TABLE AT ONCE
+-- ITS FASTER THAT 'DELETE'
+TRUNCATE TABLE persons
+
+-- TO SEE PERSONS TABLE
+SELECT *
+FROM persons
+
+------------------------------------------
 -- 'DROP TABLE' IS USED TO DELETE THE FULL TABLE
 
 DROP TABLE persons
 -- WARNING: It will delete the whole table
-

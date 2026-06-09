@@ -1,0 +1,202 @@
+### OPERATORS
+
+<pre>
+OPERATORS
+├── ARITHMETIC
+│   ├── +
+│   ├── -
+│   ├── *
+│   ├── /
+│   └── %  (MODULO)
+├── COMPARISON
+│   ├── =
+│   ├── <>  / !=
+│   ├── <
+│   ├── >
+│   ├── <=
+│   └── >=
+├── LOGICAL
+│   ├── AND
+│   ├── OR
+│   └── NOT
+├── SET
+│   ├── UNION
+│   ├── UNION ALL
+│   ├── INTERSECT
+│   └── EXCEPT
+├── PATTERN & RANGE
+│   ├── LIKE
+│   ├── IN
+│   └── BETWEEN
+└── NULL
+    ├── IS NULL
+    └── IS NOT NULL
+</pre>
+
+> OPERATORS ARE **SYMBOLS OR KEYWORDS** THAT ACT ON VALUES — IN `SELECT`, `WHERE`, `HAVING`, `ORDER BY`, ETC.
+>
+> THEY RETURN A **RESULT** (A NUMBER, TRUE/FALSE, OR A COMBINED RESULT SET).
+
+#### ARITHMETIC OPERATORS
+
+> DO **MATH ON NUMBERS** — ADD, SUBTRACT, MULTIPLY, DIVIDE, REMAINDER.
+>
+> - `+` — ADDITION  
+> - `-` — SUBTRACTION  
+> - `*` — MULTIPLICATION  
+> - `/` — DIVISION  
+> - `%` — MODULO (REMAINDER AFTER DIVISION; NOT ALL DATABASES SUPPORT `%`)
+
+```sql
+-- USE IN SELECT TO CALCULATE NEW COLUMNS
+SELECT
+    id,
+    price,
+    quantity,
+    price * quantity AS total,
+    price + 10 AS price_with_fee
+FROM orders;
+
+-- USE IN WHERE
+SELECT *
+FROM orders
+WHERE quantity % 2 = 0;   -- EVEN QUANTITY ONLY
+```
+
+#### COMPARISON OPERATORS
+
+> **COMPARE TWO VALUES** — RESULT IS TRUE OR FALSE. USED IN `WHERE`, `HAVING`, `JOIN` CONDITIONS.
+>
+> - `=` — EQUAL TO  
+> - `<>` or `!=` — NOT EQUAL (BOTH MEAN THE SAME; `<>` IS STANDARD SQL)  
+> - `<` — LESS THAN  
+> - `>` — GREATER THAN  
+> - `<=` — LESS THAN OR EQUAL  
+> - `>=` — GREATER THAN OR EQUAL
+
+```sql
+SELECT *
+FROM persons
+WHERE id = 1;
+
+SELECT *
+FROM persons
+WHERE person_name <> 'Alice';
+
+SELECT *
+FROM orders
+WHERE amount >= 100 AND amount <= 500;
+```
+
+#### LOGICAL OPERATORS
+
+> **COMBINE OR FLIP CONDITIONS** — BUILD COMPLEX `WHERE` / `HAVING` FILTERS.
+>
+> - `AND` — BOTH CONDITIONS MUST BE TRUE  
+> - `OR` — AT LEAST ONE CONDITION MUST BE TRUE  
+> - `NOT` — REVERSES TRUE → FALSE AND FALSE → TRUE  
+>
+> USE **PARENTHESES** WHEN MIXING `AND` AND `OR` — CLARITY MATTERS.
+
+```sql
+-- AND: BOTH MUST MATCH
+SELECT *
+FROM persons
+WHERE person_name = 'Alice' AND email IS NOT NULL;
+
+-- OR: EITHER MATCHES
+SELECT *
+FROM persons
+WHERE person_name = 'Alice' OR person_name = 'Bob';
+
+-- NOT: FLIP THE CONDITION
+SELECT *
+FROM persons
+WHERE NOT person_name = 'Alice';
+
+-- PARENTHESES — OR GROUP FIRST, THEN AND
+SELECT *
+FROM persons
+WHERE (person_name = 'Alice' OR person_name = 'Bob')
+  AND email IS NOT NULL;
+```
+
+#### SET OPERATORS
+
+> **COMBINE RESULTS OF TWO OR MORE `SELECT` QUERIES** — COLUMNS MUST MATCH IN **COUNT AND COMPATIBLE TYPE**.
+>
+> - `UNION` — MERGE ROWS; **REMOVES DUPLICATES**  
+> - `UNION ALL` — MERGE ROWS; **KEEPS DUPLICATES**  
+> - `INTERSECT` — ROWS THAT APPEAR IN **BOTH** QUERIES  
+> - `EXCEPT` — ROWS IN FIRST QUERY **BUT NOT** IN SECOND (`MINUS` IN ORACLE)
+
+```sql
+-- ALL UNIQUE NAMES FROM TWO TABLES
+SELECT person_name FROM persons
+UNION
+SELECT person_name FROM old_persons;
+
+-- KEEP DUPLICATE ROWS
+SELECT person_name FROM persons
+UNION ALL
+SELECT person_name FROM old_persons;
+
+-- NAMES IN BOTH TABLES
+SELECT person_name FROM persons
+INTERSECT
+SELECT person_name FROM old_persons;
+
+-- NAMES IN persons BUT NOT IN old_persons
+SELECT person_name FROM persons
+EXCEPT
+SELECT person_name FROM old_persons;
+```
+
+#### PATTERN & RANGE OPERATORS
+
+> **FILTER BY TEXT PATTERN, LIST OF VALUES, OR A RANGE** — COMMON IN `WHERE`.
+>
+> - `LIKE` — MATCH TEXT PATTERN (`%` = ANY CHARS, `_` = ONE CHAR)  
+> - `IN` — VALUE IS IN A LIST (OR SUBQUERY)  
+> - `BETWEEN` — VALUE IS IN A RANGE (**INCLUSIVE** — BOTH ENDS COUNT)
+
+```sql
+-- LIKE: NAMES STARTING WITH 'A'
+SELECT *
+FROM persons
+WHERE person_name LIKE 'A%';
+
+-- LIKE: EMAIL ENDS WITH .com
+SELECT *
+FROM persons
+WHERE email LIKE '%.com';
+
+-- IN: MATCH ANY VALUE IN THE LIST
+SELECT *
+FROM persons
+WHERE id IN (1, 2, 5);
+
+-- BETWEEN: RANGE (INCLUDES 10 AND 100)
+SELECT *
+FROM orders
+WHERE amount BETWEEN 10 AND 100;
+```
+
+#### NULL OPERATORS
+
+> **CHECK FOR MISSING DATA** — `NULL` MEANS “NO VALUE”. **NEVER USE `= NULL`** — USE `IS NULL` / `IS NOT NULL`.
+>
+> - `IS NULL` — COLUMN HAS NO VALUE  
+> - `IS NOT NULL` — COLUMN HAS A VALUE
+
+```sql
+-- ROWS WITH NO PHONE
+SELECT *
+FROM persons
+WHERE phone IS NULL;
+
+-- ROWS WITH A PHONE NUMBER
+SELECT *
+FROM persons
+WHERE phone IS NOT NULL;
+```

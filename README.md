@@ -18,9 +18,15 @@ Personal notes and learning resources.
 │       ├── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/DB/SQL/02_sql_ddl_cmd_.sql">02_sql_ddl_cmd_.sql</a>
 │       ├── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/DB/SQL/03_sql_dml_.md">03_sql_dml_.md</a>
 │       ├── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/DB/SQL/03_sql_dml_cmd_.sql">03_sql_dml_cmd_.sql</a>
-│       └── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/DB/SQL/04_sql_operators_.md">04_sql_operators_.md</a>
+│       ├── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/DB/SQL/04_sql_operators_.md">04_sql_operators_.md</a>
+│       ├── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/DB/SQL/04_sql_operators_cmd_.sql">04_sql_operators_cmd_.sql</a>
+│       ├── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/DB/SQL/05_sql_joins_.md">05_sql_joins_.md</a>
+│       └── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/DB/SQL/05_sql_joins_cmd_.sql">05_sql_joins_cmd_.sql</a>
 ├── <a href="https://github.com/HasanujjamanGazi/NOTES/tree/main/DOCKER">DOCKER/</a>
 │   └── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/DOCKER/COMMANDS.md">COMMANDS.md</a>
+├── <a href="https://github.com/HasanujjamanGazi/NOTES/tree/main/EXCEL">EXCEL/</a>
+│   ├── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/EXCEL/01_notes.md">01_notes.md</a>
+│   └── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/EXCEL/02_errors.md">02_errors.md</a>
 ├── <a href="https://github.com/HasanujjamanGazi/NOTES/tree/main/GIT">GIT/</a>
 │   └── <a href="https://github.com/HasanujjamanGazi/NOTES/blob/main/GIT/git.md">git.md</a>
 ├── <a href="https://github.com/HasanujjamanGazi/NOTES/tree/main/GSAP">GSAP/</a>

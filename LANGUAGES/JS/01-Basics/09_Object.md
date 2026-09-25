@@ -65,8 +65,8 @@ Object.entires(obj)    // [['user', 'panna'], ['age', 123], ['role', 'dev']]
 let users = {
   name: "panna",
   address: {
-    city: "Basanti",
-    pin: 743312,
+    city: "Kolkata",
+    pin: 700001,
     location: {
       lat: 23.4,
       long: 87.5
